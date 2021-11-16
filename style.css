@@ -1,0 +1,134 @@
+body {
+    background-color: cornsilk;
+}
+header {
+    font-size: 200%;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#container {
+    margin-top: 5rem;
+}
+@media (min-width: 992px) {
+    div.content {
+        float:left;
+        background-color:lightslategray;
+        border: 1px solid black;
+        width: 29.333%;
+        margin-right: 2%;
+        margin-left: 2%;
+        height: 15rem;
+        position: relative;
+    }
+    p#texts {
+        width: 80%;
+        text-align:inherit;
+        margin: 24% 5% 10% 10%;
+        font-size: 120%;
+    }
+    div#titlecorner{
+        position: absolute;
+        background-color: brown;
+        border: 1px solid black;
+        top: 0;
+        right: 0;
+        width: 48%;
+        height: 65px;
+    }
+    p#cornertext {
+        text-align: center;
+        font-weight: bold;
+        font-size: 155%;
+        margin: 15px 5px 10px 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    div.content {
+        float:left;
+        background-color:lightslategray;
+        border: 1px solid black;
+        width: 45%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        margin-top: 1rem;
+        height: 15rem;
+        position: relative;
+    }
+    p#texts {
+        width: 80%;
+        text-align:inherit;
+        margin: 24% 5% 10% 10%;
+        font-size: 120%;
+    }
+    div#titlecorner{
+        position: absolute;
+        background-color: brown;
+        border: 1px solid black;
+        top: 0;
+        right: 0;
+        width: 48%;
+        height: 65px;
+    }
+    p#cornertext {
+        text-align: center;
+        font-weight: bold;
+        font-size: 155%;
+        margin: 15px 5px 10px 10px;
+    }
+    div.content-center
+    {
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 80%;
+        width: 95%;
+        background-color:lightslategray;
+        border: 1px solid black;
+    }   
+}
+@media (max-width: 767px){
+    div.content {
+        float:left;
+        background-color:lightslategray;
+        border: 1px solid black;
+        width: 95%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        height: 15rem;
+        position: relative;
+    }
+    p#texts {
+        width: 80%;
+        text-align:inherit;
+        margin: 20% 5% 10% 10%;
+        font-size: 120%;
+    }
+    div#titlecorner{
+        position: absolute;
+        background-color: brown;
+        border: 1px solid black;
+        top: 0;
+        right: 0;
+        width: 48%;
+        height: 65px;
+    }
+    p#cornertext {
+        text-align: center;
+        font-weight: bold;
+        font-size: 155%;
+        margin: 15px 5px 10px 10px;
+    }  
+}
