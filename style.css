@@ -29,7 +29,7 @@ header {
         height: 15rem;
         position: relative;
     }
-    p#texts {
+    p.texts {
         width: 80%;
         text-align:inherit;
         margin: 24% 5% 10% 10%;
@@ -64,7 +64,7 @@ header {
         height: 15rem;
         position: relative;
     }
-    p#texts {
+    p.texts {
         width: 80%;
         text-align:inherit;
         margin: 24% 5% 10% 10%;
@@ -91,11 +91,17 @@ header {
         margin-left: 2.5%;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        height: 80%;
+        height: 15rem;
         width: 95%;
         background-color:lightslategray;
         border: 1px solid black;
     }   
+    p.text-md {
+        width: 80%;
+        text-align:inherit;
+        margin: 15% 5% 10% 10%;
+        font-size: 120%; 
+    }
 }
 @media (max-width: 767px){
     div.content {
@@ -110,7 +116,7 @@ header {
         height: 15rem;
         position: relative;
     }
-    p#texts {
+    p.texts {
         width: 80%;
         text-align:inherit;
         margin: 20% 5% 10% 10%;
